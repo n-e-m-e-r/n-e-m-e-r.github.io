@@ -1,34 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Clase 3 - HTML</title>
-    </head>
-    <body>
-        <h1>Nicolas Martinez Rivas</h1>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Clase 6</h1>
+            <fieldset>
+                <legend>Alta de Usuario</legend>
+                <form action="altaDeUsuario.html">
+                    <input type="file">
+                    <input type="hidden" value="valorOculto" name="campoHidden">
+                    <input type="url" name="url" placeholder="Ingrese una URL">
+                    <input type="text" name="nombre" placeholder="Ingrese algo">
+                    <input type="text" placeholder="valores entre 0 y 9" pattern="[0-9]">
+                    <br>
+                    <textarea name="info-extra" id="" cols="50" rows="5"></textarea>
+                    <hr>
+                    <select name="selectMultiple" id="">
+                        <optgroup label="Animales">
+                            <option value="">Leon</option>
+                            <option value="">Tigre</option>
+                        </optgroup>
+                        <optgroup label="Colores">
+                            <option value="">Rojo</option>
+                            <option value="">Verde</option>
+                            <option value="">Azul</option>
+                        </optgroup>
+                    </select>
+                    <br>
 
-        <!-- Lista sin orden-->
-        <ul>
-            <li>Java</li>
-            <li>C#</li>
-            <li>Go</li>
-        </ul>
-        <!-- Listas ordenadas-->
-        <ol>
-            <li>Primer</li>
-            <li>Segundo</li>
-            <li>Tercero</li>
-        </ol>
-        <img src="simpson.jpg" alt="Imagen de la familia Simpson" width="200px">
-        <br>
-        <img src="https://picsum.photos/200/300" alt="Imagen random">
-        <a href="https://picsum.photos/200/300" target="_blank">Ver imagen</a>
-        <hr>
-        <b>C#</b>
-        <mark>Java</mark>
-        <ins>Go</ins>
-        <small>Segundo</small>
-        <del>Tercero</del>
-        <sup>Nicolas</sup>
-        <sub>Martinez Rivas</sub>
-    </body>
+                    <input type="text" list="browser" name="dataBrowser">
+                    <datalist id="browser">
+                        <option value="">Edge</option>
+                        <option value="">Chrome</option>
+                        <option value="">Firefox</option>
+                        <option value="">Opera</option>
+                    </datalist>
+                    <br>
+                    <span>Type Search</span>
+                    <input type="search" name="" id="">
+                    <br>
+                    <span>Type Text</span>
+                    <input type="text">
+                    <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+                
+        </section>
+    </main>
+</body>
 </html>
