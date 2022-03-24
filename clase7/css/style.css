@@ -1,0 +1,30 @@
+/*
+*{
+    Este * es un selector universal: modifica todo lo que se encuentra
+}
+
+*/
+
+body{
+    background-color: aqua;
+}
+
+#idsection{
+    background-color: blueviolet;
+}
+
+#nav{
+    background-color: beige;
+}
+
+.links{
+    color: rgb(255, 0 , 179);
+}
+
+a{
+    text-decoration: none;
+}
+
+#linkActive{
+    color: blanchedalmond;
+}
