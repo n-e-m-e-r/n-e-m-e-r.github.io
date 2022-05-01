@@ -1,0 +1,61 @@
+.foto-central{
+    border-radius: 0%;
+}
+
+.background-honolulu {
+    background-color: #343A40;
+}
+
+.sombra {
+    filter: brightness(50%);
+    
+}
+.encabezado-seccion{
+    text-align:center;
+    width:100%;
+} 
+
+.pretitulo{
+    margin: 0.2em;
+}
+.conferencia{
+    align-items:flex-end;
+    margin-top: 300px;
+    border: none;
+    margin-right: 15px;
+}
+.titulo-conferencia{
+    font-size: 2em;
+}
+.texto-conferencia{
+    font-size: 1em;
+}
+.texto-react{
+    background-color: #0AA2C0 !important;
+    color: white;
+}
+.encabezado-seccion p{
+    font-size: 0.75em;
+}
+.charla-ignite{
+    text-decoration: underline; 
+    text-decoration-style: dotted;
+}
+.form-helper{
+    text-align: left;
+}
+.btn-formulario{
+    color: white;
+    background-color: #96C93E;
+}
+.footer {
+    background: linear-gradient(to right, #1D3947, #1E5170 );
+ }
+ .footer li{
+    margin: auto 2.5em !important;
+ }
+ .footer a{
+     color: white;
+     text-align: center;
+     
+ }
